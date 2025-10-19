@@ -5,7 +5,8 @@ const Layout = () => {
   return (
     <div>
         <h1>Layout</h1>
-        <Outlet />  // Added in parent route for child routes
+        {/* Added in parent route for child routes */}
+        <Outlet />
     </div>
   )
 }
